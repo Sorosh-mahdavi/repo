@@ -1,10 +1,7 @@
 * {
     margin: 0;
     font-family: Roboto, arial;
-  }
-  body {
-    margin-bottom: 1000px;
-  }
+}
   .first-header {
     display: flex;
     flex-direction: row;
@@ -120,3 +117,43 @@
     font-style: italic;
     font-weight: 10;
   }
+  .last-container{
+    display: flex;
+    background: #3882f6;
+    padding:50px;
+    color: white;
+    width: 700px;
+    margin-left: 250px;
+    justify-content: space-between;
+    
+
+  }
+  .sign{
+    color: rgb(224, 224, 224);
+  }
+.button-sign{
+  background: #3882f6;
+  color: white;
+  width: 60px;
+  
+
+}
+.buddy{
+background-color: #3882f6;
+color: white;
+width: 150px;
+border: 2px solid;
+border-radius: 10px; 
+height: 40px;
+margin-top: 25px;
+}
+.copy{
+  background-color: #1f2937;
+  height: 100px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
